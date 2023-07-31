@@ -31,14 +31,14 @@ class Card:
     def __repr__(self):
         return f"<{self.card_value} of {self.suit}"
     
-    def show(self):
-        print('┌───────┐')
-        print(f'| {self.card_value:<2}    |')
-        print('|       |')
-        print(f'|   {self.suit}   |')
-        print('|       |')
-        print(f'|    {self.card_value:>2} |')
-        print('└───────┘')
+    # def show(self):
+    #     print('┌───────┐')
+    #     print(f'| {self.card_value:<2}    |')
+    #     print('|       |')
+    #     print(f'|   {self.suit}   |')
+    #     print('|       |')
+    #     print(f'|    {self.card_value:>2} |')
+    #     print('└───────┘')
     
 class Deck:
     def __init__(self):
